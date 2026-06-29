@@ -1198,7 +1198,7 @@ Powered by Hugo Blox Kit - https://github.com/HugoBlox/kit
 format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-759418326" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-397612845" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 async function fetchChartJSON() {
@@ -1214,7 +1214,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-759418326', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-397612845', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -3183,7 +3183,7 @@ class="hb-card group"&gt;
 &lt;/table&gt;</description></item><item><title>Internationalization (i18n)</title><link>https://example.com/courses/hugo-blox/reference/i18n/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/courses/hugo-blox/reference/i18n/</guid><description>&lt;p&gt;Hugo Blox enables you to easily edit the interface text as well as translating your site into multiple languages using Hugo&amp;rsquo;s
 feature.&lt;/p&gt;
 &lt;p&gt;View the full docs at
-&lt;/p&gt;</description></item><item><title>SEND: A Spatial Event Neural Detector for Intentional Object Motion in Immersive Music Mixing</title><link>https://example.com/projects/dafx26/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/projects/dafx26/</guid><description/></item><item><title>Spoilers</title><link>https://example.com/courses/hugo-blox/guide/formatting/toggle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/courses/hugo-blox/guide/formatting/toggle/</guid><description>&lt;p&gt;A Hugo shortcode to toggle collapsible content.&lt;/p&gt;
+&lt;/p&gt;</description></item><item><title>SEND: A Spatial Event Neural Detector for Intentional Object Motion in Immersive Music Mixing</title><link>https://example.com/projects/send/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/projects/send/</guid><description/></item><item><title>Spoilers</title><link>https://example.com/courses/hugo-blox/guide/formatting/toggle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/courses/hugo-blox/guide/formatting/toggle/</guid><description>&lt;p&gt;A Hugo shortcode to toggle collapsible content.&lt;/p&gt;
 &lt;h2 id="example"&gt;Example&lt;/h2&gt;
 &lt;details class="spoiler " id="spoiler-0"&gt;
 &lt;summary class="cursor-pointer"&gt;Click to view the spoiler&lt;/summary&gt;
